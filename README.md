@@ -1,2 +1,2 @@
 # LeeHaeun
-개발자를 꿈꾸는 대학생 이하은입니다😎 To know whether it’s the ✨entrance✨ or the 🌊exit🌊, you need to open the door🚪 잘 부탁드려요👍
+<img src="https://user-images.githubusercontent.com/93020734/224773474-8803e061-9013-42eb-ae76-c595e1a7263a.png" width="600" height="300" />
