@@ -1,0 +1,29 @@
+/* text shadow */
+h1,h2,h3{
+    text-shadow: 2px 2px lightgrey;
+}
+
+/* inline or block */
+h1{
+    display: block;
+}
+h2,h3{
+    display: inline;
+}
+
+/* 포지셔닝 사진 배치 */
+.cat {
+    width: 70px;
+    height: 70px;
+    position: fixed;
+    top: 2%;
+    left: 30%;
+  }
+
+/* visibility hidden */
+div {
+    padding: 24px;
+    background-color: pink;
+    display: inline-block;
+    visibility: hidden;
+}
