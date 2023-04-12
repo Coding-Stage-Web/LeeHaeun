@@ -11,13 +11,31 @@ h2,h3{
     display: inline;
 }
 
+/* 시맨틱태그 중 사용하지 않은 태그 */
+aside {
+    width: 40%;
+    padding-left: 0.5rem;
+    margin-left: 0.5rem;
+    float: right;
+    box-shadow: inset 5px 0 5px -5px #29627e;
+    font-style: italic;
+    color: #29627e;
+}
+
+aside > p {
+    margin: 0.5rem;
+}
+
+
+/* <nav>에 hover 적용 */
+
 /* 포지셔닝 사진 배치 */
 .cat {
     width: 70px;
     height: 70px;
     position: static;
-    top: 2%;
-    left: 30%;
+    /* top: 2%;
+    left: 30%; */
   }
 
 /* visibility hidden */
@@ -27,3 +45,33 @@ div {
     display: inline-block;
     visibility: hidden;
 }
+
+/* font */
+.menu {
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+  }
+
+/* animation */
+h1 {
+    animation-duration: 3s;
+    animation-name: slidein;
+  }
+  
+@keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
+
+/* 밴더 프리픽스 */
+p{
+    -moz-tab-size: 4;
+      -o-tab-size: 4;
+         tab-size: 4;
+  }
