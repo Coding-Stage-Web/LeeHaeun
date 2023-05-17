@@ -8,7 +8,7 @@
 |1주차|자기소개 페이지 만들기|https://github.com/Coding-Stage-Web/LeeHaeun/tree/week1|
 |2주차|CSS로 페이지 꾸미기|https://github.com/Coding-Stage-Web/LeeHaeun/tree/week2|
 |3주차|CSS로 페이지 꾸미기2|https://github.com/Coding-Stage-Web/LeeHaeun/tree/week3|
-|4주차|주제|링크4|
+|4주차|JavaScript 사용해보기|https://github.com/Coding-Stage-Web/LeeHaeun/tree/week4|
 |5주차|주제|링크5|
 |6주차|주제|링크6|
 |7주차|주제|링크7|
