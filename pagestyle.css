@@ -1,0 +1,11 @@
+h1 {
+    color:lightpink;
+}
+
+.clicked {
+    color: darkgreen;
+}
+
+.hidden {
+    display: none;
+}

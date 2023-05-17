@@ -13,15 +13,31 @@ teammate("Haeun");
 teammate("Sein");
 
 
-function guess(numb){
-    if (number<10) {
-        console.log("Too low");
-    } else if (number>10) {
-        console.log("Too high");
-    } else {
-        return number;
-    }
+const h1 = document.querySelector(".hello h1");
+h1.innerText = "Welcome!";
+
+function handleTitleClick() {
+    h1.classList.toggle("clicked");
+}
+h1.addEventListener("click", handleTitleClick);
+
+function handleWindowResize() {
+    document.body.style.backgroundColor = "beige";
 }
 
-const number = parseInt(prompt("Guess the number:"));
-guess(number)
+window.addEventListener("resize", handleWindowResize);
+
+const loginForm = document.querySelector("#login-form");
+const loginInput = document.querySelector("#login-form input");
+const greeting = document.querySelector("#greeting");
+const HIDDEN_CLASSNAME = "hidden";
+
+function onLoginSubmit(event) {
+    event.preventDefault();
+    loginForm.classList.add(HIDDEN_CLASSNAME);
+    const username = loginInput.value;
+    greeting.innerText = `Hello ${username}`;
+    greeting.classList.remove(HIDDEN_CLASSNAME);
+}
+
+loginForm.addEventListener("submit", onLoginSubmit);
