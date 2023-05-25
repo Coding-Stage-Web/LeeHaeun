@@ -10,6 +10,6 @@
 |3주차|CSS로 페이지 꾸미기2|https://github.com/Coding-Stage-Web/LeeHaeun/tree/week3|
 |4주차|JavaScript 사용해보기|https://github.com/Coding-Stage-Web/LeeHaeun/tree/week4|
 |5주차|JavaScript 사용해보기2|https://github.com/Coding-Stage-Web/LeeHaeun/tree/week5|
-|6주차|주제|링크6|
+|6주차|JavaScript 사용해보기3|https://github.com/Coding-Stage-Web/LeeHaeun/tree/week6|
 |7주차|주제|링크7|
 |8주차|주제|링크8|
