@@ -41,3 +41,40 @@ function onLoginSubmit(event) {
 }
 
 loginForm.addEventListener("submit", onLoginSubmit);
+
+
+var numbers = [];
+for (i=1; i<=5; i+=1) {
+    var randoms = Math.floor(Math.random()*100)+1;
+    numbers.push(randoms);
+}
+
+console.log(Math.min(...numbers));
+
+class mentor{
+    constructor(name){
+        this.group = '웹기초팀';
+        this.club = 'codingstage';
+    }
+}
+
+class mentee extends mentor{
+    constructor(name){
+        super(name);
+        this.age = 23;
+    }
+
+    get nextAge(){
+        return this.age + 1
+    }
+
+    set setAge(나이){
+        this.age = 나이;
+    }
+}
+
+var anonymous = new mentee();
+
+var leader = { teamname: '4Ns' };
+var member = {};
+member.__proto__ = leader;
